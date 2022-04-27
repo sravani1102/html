@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Paragraph and Web Page</title>
+</head>
+<body>
+<a href="https://swayam.gov.in/nc_details/NPTEL">
+<p style="background-color:yellow;">
+National Programme on Technology Enhanced Learning (NPTEL) is a project of MHRD initiated by seven Indian Institutes of Technology (Bombay, Delhi, Kanpur, Kharagpur, Madras, Guwahati and Roorkee) along with the Indian Institute of Science, Bangalore in 2003, to provide quality education to anyone interested in learning from the IITs. The main goal was to create web and video courses in all major branches of engineering and physical sciences at the undergraduate and postgraduate levels and management courses at the postgraduate level.
+</p>
+</a>
+<a href="https://in.search.yahoo.com/?fr2=inr">
+<p style="background-color:tomato;">Yahoo (/ˈjɑːhuː/, styled yahoo! in its logo)[5][6] is an American web services provider. It is headquartered in Sunnyvale, California and operated by the namesake company Yahoo Inc., which is 90% owned by investment funds managed by Apollo Global Management and 10% by Verizon Communications.
+</p>
+</a>
+<a href="https://www.hackerrank.com/">
+<p style="background-color:skyblue;">
+HackerRank is a tech company[1] that focuses on competitive programming challenges for both consumers and businesses, where developers compete by trying to program according to provided specifications.[2][3] HackerRank's programming challenges can be solved in a variety of programming languages (including Java, C++, PHP, Python, SQL, JavaScript) and span multiple computer science domains.
+</p>
+<a href="https://leetcode.com/">
+<p style="background-color:grey;">
+LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
+</p>
+</a>
+</body>
+</html>
