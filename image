@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>Image</title>
+</head>
+<body>
+<h3>Image display using img tag</h3>
+<img src="C:\Users\y20cs74\Downloads\depositphotos_29460297-stock-photo-bird-cage.jpg" alt="bird" width="500" height="500" style="border:5px solid black">
+</body>
+</html>
