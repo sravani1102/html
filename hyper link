@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>Hyper Link</title>
+</head>
+<body>
+<h3>Google Link</h3>
+<a href="https://www.google.com/">google</a>
+<br>
+<h3>Swayam Nptel</h3>
+<a href="https://swayam.gov.in/nc_details/NPTEL">swayam.nptel.com</a>
+</body>
+</html>
