@@ -1,0 +1,127 @@
+1.
+
+a.
+<html>
+<head>
+    <title>1.a</title>
+</head>
+<body style="background-color:green;">
+    <p>My First Page</p>
+</body>
+</html>
+
+b.
+<html>
+    <head>
+        <title>1.b</title>
+    </head>
+    <body style="background-color:pink;">
+        <marquee style="color:red;">Displaying a moving message</marquee>
+    </body>
+</html>
+
+c.
+<html>
+    <body>
+        <p>
+            <h1 align="center">HTML</h1>
+            <h3>HTML stands for Hyper Text Markup Language</h3>
+            <h4>HTML is the standard markup language for creating
+            Web pages.HTML describes the structure of a Web page.
+            HTML consists of a series of elements.HTML elements 
+            tell the browser how to display the content.</h4>
+    </body>
+</html>
+
+2.
+
+a.
+<html>
+    <body>
+        <h1>WELCOME</h1>
+        <h2>WELCOME</h2>
+        <h3>WELCOME</h3>
+        <h4>WELCOME</h4>
+        <h5>WELCOME</h5>
+        <h6>WELCOME</h6>
+    </body>
+</html>
+
+b.
+<html>
+    <body>
+        <b>WELCOME</b>
+    </body>
+</html>
+
+c.
+
+<html>
+    <body>
+        <p>h<sub>2</sub>o</p>
+        <p>x<sup>2</sup>+y<sup>2</sup></p>
+    </body>
+</html>
+
+3.
+
+a.
+
+b.
+<html>
+    <body>
+        <p>Bold tag</p>
+        <b>HTML</b>
+        <p>Italic tag</p>
+        <i>HTML</i>
+        <p>Underline tag</p>
+        <u>HTML</u>
+    </body>
+</html>
+
+c.
+<html>
+    <body style="background-color:yellow;">
+        <p style="color:red">HTML is the standard markup language 
+            for creating Web pages.HTML describes the structure of 
+            a Web page.HTML consists of a series of elements.
+            HTML elements  tell the browser how to display the content.</p>   
+    </body>
+</html>
+
+4.
+
+5.
+
+a.
+
+<html>
+    <body>
+        <p>Names of five of my friends</p>
+        <ol>
+            <li>Vijaya</li>
+            <li>Praveena</li>
+            <li>Madhavi</li>
+            <li>Chandrika</li>
+            <li>Srilekha</li>
+        </ol>
+    </body>
+</html>
+
+b.
+
+
+c.
+
+<html>
+    <body>
+        <p>Names of five of my friends</p>
+        <ul>
+            <li>Vijaya</li>
+            <li>Praveena</li>
+            <li>Madhavi</li>
+            <li>Chandrika</li>
+            <li>Srilekha</li>
+        </ul>
+    </body>
+</html>
