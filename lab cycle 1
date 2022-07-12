@@ -67,6 +67,19 @@ c.
 
 a.
 
+<html>
+    <head>
+        <title>Font tag</title>
+    </head>
+    <body>
+        <font size="8">Font tag with size attribute</font><br>
+        <font face="Verdana">Font tag with family verdana</font><br>
+        <font face="courier">Font tag with family courier</font><br>
+        <font color="green">Font tag with color attribute</font>
+    </body>
+</html>
+
+
 b.
 <html>
     <body>
@@ -90,6 +103,38 @@ c.
 </html>
 
 4.
+a.
+<html>
+    <body vlink="yellow" alink="violet">
+        <a href="https://onlinecourses.nptel.ac.in/" target="_blank">NPTEL</a>  
+    </body>
+</html>
+
+b.
+
+<html>
+    <body>
+        <a href="https://en.wikipedia.org/wiki/Main_Page">-Wi-Fi</a><br>
+        <a href="https://en.wikipedia.org/wiki/Main_Page">-LAN</a>
+    </body>
+</html>
+
+c.
+
+<html>
+    <body>
+        <p>National Programme on Technology Enhanced Learning
+            (NPTEL) is a project of MHRD initiated by seven 
+            Indian Institutes of Technology (Bombay, Delhi, 
+            Kanpur, Kharagpur, Madras, Guwahati and Roorkee) 
+            along with the Indian Institute of Science, 
+            Bangalore in 2003, to provide quality education 
+            to anyone interested in learning from the IITs</p>
+        <a href="https://onlinecourses.nptel.ac.in/" target="_blank">
+            <img src="nptellogo.jpg" alt="nptel"></a>
+    </body>
+</html>
+
 
 5.
 
@@ -123,5 +168,80 @@ c.
             <li>Chandrika</li>
             <li>Srilekha</li>
         </ul>
+    </body>
+</html>
+
+6.
+
+a.
+
+<html>
+    <head>
+    <title>Table</title>
+    </head>
+    <body>
+        <Table border="2" style="border-collapse:collapse;text-align: center;margin-left:auto;margin-right:auto;" >
+            <caption>TIME TABLE</caption>
+            <tr>
+                <th colspan="5" style="border-right:none;text-align: left;">SECTION-B</th>
+                <th colspan="8" style="border-left:none;text-align: center;">CLASS ROOM:CB 407</th>
+            </tr>
+            <tr>
+                <th>Day</th>
+                <th>8:00-9:00</th>
+                <th>9:00-10:00</th>
+                <th>10:00-11:00</th>
+                <th rowspan="7">Break</th>
+                <th>12:00-01:00</th>
+                <th>01:00-02:00</th>
+                <th>02:00-03:00</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td>OS</td>
+                <td>CS</td>
+                <td>E&HV</td>
+                <td>DBMS</td>
+                <td>WT</td>
+                <td>CBA</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>E&HV</td>
+                <td>DBMS</td>
+                <td>SE</td>
+                <td>WT</td>
+                <td>OS</td>
+                <td>CBA</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>SE</td>
+                <td>OS</td>
+                <td>CS</td>
+                <td colspan="3">WT LAB</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td colspan="3">CS LAB</td>
+                <td>SOC</td>
+                <td>DBMS</td>
+                <td>CS</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td>WT</td>
+                <td>SE</td>
+                <td>DBMS</td>
+                <td colspan="3">DBMS LAB</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td colspan="2">SOC LAB</td>
+                <td>WT</td>
+                <td>cs</td>
+                <td colspan="2">CC</td>
+            </tr>
+        </Table>
     </body>
 </html>
