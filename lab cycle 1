@@ -114,8 +114,8 @@ b.
 
 <html>
     <body>
-        <a href="https://en.wikipedia.org/wiki/Main_Page">-Wi-Fi</a><br>
-        <a href="https://en.wikipedia.org/wiki/Main_Page">-LAN</a>
+        <a href="https://en.wikipedia.org/wiki/Wi-Fi">Wi-Fi</a><br>
+        <a href="https://en.wikipedia.org/wiki/Local_area_network">LAN</a>
     </body>
 </html>
 
@@ -154,6 +154,31 @@ a.
 </html>
 
 b.
+
+<html>
+<head>
+<title>content of os</title>
+</head>
+<body>
+<h3 align="center"><u>Operating System</u></h3>
+<ul>
+    <li>Overview</li>
+    <ul style="list-style-type:circle">
+	<li>Introduction</li>
+	<li>Software Execution</li>
+	<li>History and Hardware</li>
+	<li>OS Structures</li>
+    </ul>
+    <li>Process Management</li>
+    <ul style="list-style-type:circle">
+	<li>Processes</li>
+	<li>Scheduling</li>
+	<li>Inter process communication</li>
+	<li>Synchronization and deadlocks</li>
+    </ul>
+</ul>
+</body>
+</html>
 
 
 c.
@@ -245,3 +270,99 @@ a.
         </Table>
     </body>
 </html>
+
+b.
+
+c.
+<html>
+    <body>
+        <table border="1" style="border-collapse:collapse;">
+            <tr padding="2">
+                <th rowspan="2" style="padding:20px;">Name of train</th>
+                <th rowspan="2" style="padding:20px;">Place</th>
+                <th rowspan="2" style="padding:20px;">Destination</th>
+                <th rowspan="2" style="padding:20px;">Train No</th>
+                <th colspan="2" style="padding:20px;">Time</th>
+                <th rowspan="2" style="padding:20px;">Fair</th>
+            </tr>
+            <tr>
+                <th style="padding:20px;">Arrival</th>
+                <th style="padding:20px;">Departure</th>
+            </tr>
+        </table>
+    </body>
+</html>
+
+7.
+
+a.
+<html>
+    <frameset rows="50%,50%">
+        <frame/>
+        <frame/>
+    </frameset>
+</html>
+
+b.
+
+<html>
+    <frameset rows="50%,50%">
+        <frame/>
+        <frameset cols="50%,50%">
+            <frame/>
+            <frame/> 
+        </frameset>
+    </frameset>
+</html>
+
+c.
+
+<html>
+    <frameset rows="50%,50%">
+        <frame style="background-color:yellow;"></frame>
+        <frameset cols="50%,50%">
+            <frame style="background-color: tomato;"/>
+            <frame style="background-color: blue;"/> 
+        </frameset>
+    </frameset>
+</html>
+
+8.
+
+a.
+
+<html>
+    <body>
+        <form action="8a1.html">
+            <fieldset>
+                <label for="title"><p align="center"><b>BIO DATA</b></p></label>
+                <label for="fname">First Name :</label>
+                <input type="text" id="fname" required><br>
+                <label for="lname">Last Name :</label>
+                <input type="text" id="lname"><br>
+                <label for="Gender :">Gender : </label><br>
+                <input type="radio" id="female" value="Female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="male" value="Male">
+                <label for="male">Male</label><br>
+                <label for="dob">Date of Birth(DD/MM/YY)</label>
+                <input type="date" id="dob" required><br>
+                <datalist id="caste">
+                    <option value="General"></option>
+                    <option value="OBC"></option>
+                    <option value="BC"></option>
+                    <option value="ST"></option>
+                    <option value="SC"></option>
+                </datalist>
+                <label for="c">Caste:</label>
+                <input list="caste"><br>
+                <label for="hobbies">Hobbies :</label><br>
+                <textarea name="hobbies" rows="5" cols="50"></textarea>
+                <center><input type="submit"></fieldset></center>
+            </fieldset>
+        </form>
+    </body>
+</html>
+
+b.
+
