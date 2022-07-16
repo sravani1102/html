@@ -216,7 +216,7 @@ a.
                 <th>8:00-9:00</th>
                 <th>9:00-10:00</th>
                 <th>10:00-11:00</th>
-                <th rowspan="7">Break</th>
+                <th rowspan="7" style="font-size:100%;"><b>L<br>U<br>N<br>C<br>H</b></th>
                 <th>12:00-01:00</th>
                 <th>01:00-02:00</th>
                 <th>02:00-03:00</th>
@@ -366,3 +366,76 @@ a.
 
 b.
 
+9.a
+
+<html>
+    <head>
+    <title>Table</title>
+    </head>
+    <body>
+        <Table border="2" style="border-collapse:collapse;text-align: center;margin-left:auto;margin-right:auto;" >
+            <caption>TIME TABLE</caption>
+            <thead bgcolor="blue">
+            <tr>
+                <th>Day</th>
+                <th>8:00-9:00</th>
+                <th>9:00-10:00</th>
+                <th>10:00-11:00</th>
+                <th>11:00-12:00</th>
+                <th>12:00-01:00</th>
+                <th>01:00-02:00</th>
+                <th>02:00-03:00</th>
+            </tr>
+            </thead>
+            <tr>
+                <th>Monday</th>
+                <td>OS</td>
+                <td>CS</td>
+                <td>E&HV</td>
+                <td rowspan="6" style="font-size:100%;"><b>L<br>U<br>N<br>C<br>H</b></td>
+                <td>DBMS</td>
+                <td>WT</td>
+                <td>CBA</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>E&HV</td>
+                <td>DBMS</td>
+                <td>SE</td>
+                <td>WT</td>
+                <td>OS</td>
+                <td>CBA</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>SE</td>
+                <td>OS</td>
+                <td>CS</td>
+                <td colspan="3">WT LAB</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td colspan="3">CS LAB</td>
+                <td>SOC</td>
+                <td>DBMS</td>
+                <td>CS</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td>WT</td>
+                <td>SE</td>
+                <td>DBMS</td>
+                <td colspan="3">DBMS LAB</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td colspan="2">SOC LAB</td>
+                <td>WT</td>
+                <td>cs</td>
+                <td colspan="2">CC</td>
+            </tr>
+        </Table>
+    </body>
+</html>
+
+b.c.same(write in css)
