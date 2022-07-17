@@ -273,6 +273,95 @@ a.
 
 b.
 
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	table,th,td
+	{
+		border:1px solid;
+		border-collapse:collapse;
+		padding:8px 8px 8px 8px;
+	}	
+	</style>
+</head>
+<body>
+	<h2 align="center"><u><b>INFRASTRUCTURE DETAILS</b></u></h2>
+	<table>
+	<tr>
+		<th>1.</th>
+		<td>Total land available (in acres) (copy of land documents to be placed as annexure)</td>
+		<td>37.41 Acres</td>
+	</tr>
+	<tr>
+		<th>2.</th>
+		<td>Class Rooms (No. of class rooms and covered area in sq.ft.)</td>
+		<td>94 class rooms.<br>8,408.06 sq.mts. = 98,878.78 sq.ft.</td>
+	</tr>
+		<th>3.</th>
+		<td>Laboratories (No. of labs rooms and covered area in sq.ft.)</td>
+		<td>79 Laboratories<br>8,987.11 sq.mts. = 96,701.3 sq.ft.</td>
+	</tr>
+	<tr>
+		<th>4.</th>
+		<td>Central Library
+			<ol type="i">
+				<li>Total Area</li>
+				<li> Whether reading room available?</li>
+				<li> Details about books, titles, journals (National/International) CDs, e-								 resources,e-journals, Theses etc.)</li>	
+			</ol>
+		</td>
+		<td>1,766 sq.mts. = 19,002.16 sq.ft.</td>
+	</tr>
+	<tr>
+		<th>5.</th>
+		<td>Depatment Libaries</td>
+		<td>284.22 sq.mts. = 3058.2 sq.ft</td>
+	</tr>
+	<tr>
+		<th rowspan="2">6.</th>
+		<td style="border-bottom:none;">Hostel (No. of rooms with students accommodated)
+			<ol type="1">
+				<li>Men</li>
+			</ol>
+		</td>
+		<td style="border-bottom:none;"><br><br>Block-I : 9,480 sq.mt. = 1,02,004.8 sq.ft.<br>
+			Block-II :9,600 sq.mt. = 1,03,296.0 sq.ft.<br>
+ 					   19,080 sq.mt.= 2,05,300.8 sq.ft.<br>
+			Block-I : 122 Rooms 488 students<br>
+			Block-II : 151 Rooms 755 students<br>
+			Total : 273 Rooms 1,243 students
+		</td>
+	</tr>
+	<tr>
+		<td style="border-top:none;">
+			<ol start="2">
+				<li>Women</li>
+			</ol>
+		</td>
+		<td style="border-top:none;">Block-I : 7,250 sq.mt. = 78,010.00 sq.ft.<br>
+			Block-II : 3,367 sq.mt. = 36,228.92 sq.ft.<br>
+ 			10,617 sq.mt. = 1,14.238.92 sq.ft.<br>
+			Block-I : 68 Rooms = 408 students<br>
+			Block-II : 72 Rooms = 298 students<br>
+			Total : 140 Rooms = 706 students
+		</td>
+	</tr>
+	<tr>
+		<th>7.</th>
+		<td>(i) Administrative Block<br><br>(ii) Principal Office<br><br>(iii) Staff Room<br><br>(iv) Common Room <br><br>(v) Canteen<br><br>(vi) Auditorium<br><br>(vii) Internet facilities<br><br>(viii) Medical facilities</td>
+		<td>1773 sq.m. (19077.48 sq.ft) (ground floor of main building).<br><br>280 sq.mts. (3012.8 sq.ft.)<br><br>2472.35 sq.mt. (26602.486 sq.ft.)<br><br>668.15 sq.mt. (7189.294 sq.ft.)<br><br>1485.69 sq.mt. (15,986.02 sq.ft.)<br><br>743+743+1860 = 3346 sq.mts.(35989.36 sq.ft.)<br><br>1 GBPS<br><br>Dispensary provided in the college.Medicines supplied free of cost to<br>all students and staff. 2 Doctors, 1 Pharmacist and 1 Female Nurse are appointed.</td>
+	</tr>
+	<tr>
+	<th>8.</th>
+	<td>Total Buildings (covered area in sq.ft.)</td>
+	<td><b>91,579 sq.mts. = 9,85,390 sq.ft</b></td>
+	</tr>
+	</table>
+</body>
+</html>
+
+
 c.
 <html>
     <body>
