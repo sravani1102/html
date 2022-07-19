@@ -455,16 +455,128 @@ a.
 
 b.
 
-9.a
+<!DOCTYPE html>
+<html>
 
+<body>
+<form>
+	<input type="radio" id='r' onClick="document.bgColor='red'">
+	<label for='r'>Red</label><br>
+	<input type="radio" id='y' onClick="document.bgColor='yellow'">
+	<label for='y'>Yellow</label><br>
+	<input type="radio" id='g' onClick="document.bgColor='green'">
+	<label for='g'>Green</label><br>
+</form>
+</body>
+</html>
+
+c.
+<!DOCTYPE html>
+<html>
+<body>
+<audio src="audio.ogg" controls="controls">
+</audio><br><br>
+<video src="video.mp4" controls="controls">
+</video>
+</body>
+</html>
+
+9.
+a.
 <html>
     <head>
     <title>Table</title>
+	<style>
+	#color{
+			background-color:blue;
+	}
+	</style>
     </head>
     <body>
         <Table border="2" style="border-collapse:collapse;text-align: center;margin-left:auto;margin-right:auto;" >
             <caption>TIME TABLE</caption>
-            <thead bgcolor="blue">
+            <tr>
+                <th colspan="5" style="border-right:none;text-align: left;">SECTION-B</th>
+                <th colspan="8" style="border-left:none;text-align: center;">CLASS ROOM:CB 407</th>
+            </tr>
+            <tr id="color">
+                <th>Day</th>
+                <th>8:00-9:00</th>
+                <th>9:00-10:00</th>
+                <th>10:00-11:00</th>
+                <th>11:00-12:00</th>
+                <th>12:00-01:00</th>
+                <th>01:00-02:00</th>
+                <th>02:00-03:00</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>OS</td>
+                <td>CS</td>
+                <td>E&HV</td>
+				 <td rowspan="6">L<br>U<br>N<br>C<br>H</td>
+                <td>DBMS</td>
+                <td>WT</td>
+                <td>CBA</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>E&HV</td>
+                <td>DBMS</td>
+                <td>SE</td>
+                <td>WT</td>
+                <td>OS</td>
+                <td>CBA</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>SE</td>
+                <td>OS</td>
+                <td>CS</td>
+                <td colspan="3">WT LAB</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td colspan="3">CS LAB</td>
+                <td>SOC</td>
+                <td>DBMS</td>
+                <td>CS</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>WT</td>
+                <td>SE</td>
+                <td>DBMS</td>
+                <td colspan="3">DBMS LAB</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td colspan="2">SOC LAB</td>
+                <td>WT</td>
+                <td>cs</td>
+                <td colspan="2">CC</td>
+            </tr>
+        </Table>
+    </body>
+</html>
+
+b.
+<html>
+    <head>
+    <title>Table</title>
+	<style>
+	#bold{
+			font-weight:bold;
+	}
+	</style>
+    </head>
+    <body>
+        <Table border="2" style="border-collapse:collapse;text-align: center;margin-left:auto;margin-right:auto;" >
+            <caption>TIME TABLE</caption>
+            <tr>
+                <th colspan="5" style="border-right:none;text-align: left;">SECTION-B</th>
+                <th colspan="8" style="border-left:none;text-align: center;">CLASS ROOM:CB 407</th>
+            </tr>
             <tr>
                 <th>Day</th>
                 <th>8:00-9:00</th>
@@ -475,19 +587,18 @@ b.
                 <th>01:00-02:00</th>
                 <th>02:00-03:00</th>
             </tr>
-            </thead>
             <tr>
-                <th>Monday</th>
+                <td id="bold">Monday</td>
                 <td>OS</td>
                 <td>CS</td>
                 <td>E&HV</td>
-                <td rowspan="6" style="font-size:100%;"><b>L<br>U<br>N<br>C<br>H</b></td>
+				 <td rowspan="6">L<br>U<br>N<br>C<br>H</td>
                 <td>DBMS</td>
                 <td>WT</td>
                 <td>CBA</td>
             </tr>
             <tr>
-                <th>Tuesday</th>
+                <td id="bold">Tuesday</td>
                 <td>E&HV</td>
                 <td>DBMS</td>
                 <td>SE</td>
@@ -496,28 +607,28 @@ b.
                 <td>CBA</td>
             </tr>
             <tr>
-                <th>Wednesday</th>
+                <td id="bold">Wednesday</td>
                 <td>SE</td>
                 <td>OS</td>
                 <td>CS</td>
                 <td colspan="3">WT LAB</td>
             </tr>
             <tr>
-                <th>Thursday</th>
+                <td id="bold">Thursday</td>
                 <td colspan="3">CS LAB</td>
                 <td>SOC</td>
                 <td>DBMS</td>
                 <td>CS</td>
             </tr>
             <tr>
-                <th>Friday</th>
+                <td id="bold">Friday</td>
                 <td>WT</td>
                 <td>SE</td>
                 <td>DBMS</td>
                 <td colspan="3">DBMS LAB</td>
             </tr>
             <tr>
-                <th>Saturday</th>
+                <td id="bold">Saturday</td>
                 <td colspan="2">SOC LAB</td>
                 <td>WT</td>
                 <td>cs</td>
@@ -527,4 +638,218 @@ b.
     </body>
 </html>
 
-b.c.same(write in css)
+c.
+
+<html>
+    <head>
+    <title>Table</title>
+	<style>
+	#size{
+			font-size:200%;
+	}
+	</style>
+    </head>
+    <body>
+        <Table border="2" style="border-collapse:collapse;text-align: center;margin-left:auto;margin-right:auto;" >
+            <caption>TIME TABLE</caption>
+            <tr>
+                <th colspan="5" style="border-right:none;text-align: left;">SECTION-B</th>
+                <th colspan="8" style="border-left:none;text-align: center;">CLASS ROOM:CB 407</th>
+            </tr>
+            <tr>
+                <th>Day</th>
+                <th>8:00-9:00</th>
+                <th>9:00-10:00</th>
+                <th>10:00-11:00</th>
+                <th>11:00-12:00</th>
+                <th>12:00-01:00</th>
+                <th>01:00-02:00</th>
+                <th>02:00-03:00</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>OS</td>
+                <td>CS</td>
+                <td>E&HV</td>
+				 <td rowspan="6" id="size">L<br>U<br>N<br>C<br>H</td>
+                <td>DBMS</td>
+                <td>WT</td>
+                <td>CBA</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>E&HV</td>
+                <td>DBMS</td>
+                <td>SE</td>
+                <td>WT</td>
+                <td>OS</td>
+                <td>CBA</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>SE</td>
+                <td>OS</td>
+                <td>CS</td>
+                <td colspan="3">WT LAB</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td colspan="3">CS LAB</td>
+                <td>SOC</td>
+                <td>DBMS</td>
+                <td>CS</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>WT</td>
+                <td>SE</td>
+                <td>DBMS</td>
+                <td colspan="3">DBMS LAB</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td colspan="2">SOC LAB</td>
+                <td>WT</td>
+                <td>cs</td>
+                <td colspan="2">CC</td>
+            </tr>
+        </Table>
+    </body>
+</html>
+
+10.
+
+a.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#embedded
+	{
+		font : bold 20px "Times New Roman";
+		color: green;
+	}
+</style>
+<link rel="stylesheet" type="text/css" href="external.css"/>
+</head>
+<body>
+<p style="font-weight:bold;font-size:20px;font-family:Times New Roman;color:green">Inline:Hello World</p>
+<p id=embedded>Embedded:Hello World</p>
+<p>External:Hello World</p>
+</body>
+</html>
+
+external.css
+p
+{
+	font : bold 20px "Times New Roman";
+	color: green;
+}
+
+b.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.back_img{
+	position:absolute;
+	top:0px;
+	right:0px;
+	z-index:-1;
+}
+.fore_img{
+	position:absolute;
+	top:250px;
+	right:100px;
+	z-index:2;
+}
+</style>
+</head>
+<body>
+<img src="image2.jpg" class="back_img" alt="image1">
+<img src="image1.jpg" class="fore_img" alt="image2">
+</body>
+</html>
+
+c.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#a
+{
+	color:red;
+	background-color:yellow;
+}
+.b
+{
+	color:pink;
+	font-size:300%;
+}
+.c
+{
+ background-color:navy;
+ font-style:italic;
+}
+</style>
+</head>
+<body>
+<div id="a" class="b">
+<p>Parent</p>
+<div class="c">
+<p>Children</p>
+</div>
+</div>
+</body>
+</html>
+
+11.
+a.
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Linear Gradient</title>
+<style>
+div
+{
+	width:500px;
+	height:500px;
+	background:linear-gradient(to bottom right,red,orange,yellow,green,blue,indigo,violet);
+}
+</style>
+</head>
+<body>
+<div>
+<p>Linear Gradient</p>
+</div>
+</body>
+</html>
+
+b.
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Radial Gradient</title>
+<style>
+div
+{
+	width:500px;
+	height:500px;
+	background:radial-gradient(circle at bottom left,yellow 20%,red 30%,green 50%)
+}
+</style>
+</head>
+<body>
+<div>
+<p>Radial Gradient</p>
+</div>
+</body>
+</html>
+
+
+
