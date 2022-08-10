@@ -1,0 +1,26 @@
+5.
+a)
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            var str=new String("Javascript String objects");
+            document.write(str);
+            document.write("<br>Length : "+str.length);
+            document.write("<br>Uppercase : "+str.toUpperCase());
+            document.write("<br>LowerCase : "+str.toLowerCase());
+            document.write("<br>charat 5th index : "+str.charAt(5));
+            document.write("<br>charcodeat 5th index : "+str.charCodeAt(5));
+            document.write("<br>substring from index 3 to 10 : "+str.substring(3,10));
+            document.write("<br>concat : "+str.concat(" ","using new keyword"));
+            document.write("<br>Replace : "+str.replace('a','0'));
+            var a=str.split('');
+            document.write("<br>split : "+a);
+            document.write("<br>startsWith : "+str.startsWith('c',5));
+            document.write("<br>endsWith : "+str.endsWith('objects'));
+            document.write("<br>search : "+str.search('script'));
+        </script>
+    </body>
+</html>
+
+b)
