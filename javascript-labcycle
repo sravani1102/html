@@ -109,3 +109,42 @@ c)
 </html>
 
 6.b)
+<!DOCTYPE html>
+<html>
+    <body>
+        <ol id="mylist">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ol>
+        <script>
+            var l=document.getElementById('mylist');
+            for(var i=0;i<l.children.length;i++)
+            {
+                document.write("The "+i+" children item is "+l.children[i].innerHTML+"<br>");
+            }
+        </script>
+    </body>
+</html>
+
+6.c)
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <a name="" href="https://github.com/sravani1102">Github</a>
+        <a name="" href="https://web.whatsapp.com/">whatsapp</a>
+        <a name="" href="https://swayam.gov.in/mycourses">swayam</a>
+        <script>
+            var l=document.anchors;
+            document.write("<br>Number of anchor tags are "+l.length+"<br>");
+            for(let i=0;i<l.length;i++)
+            {
+                document.write("The "+i+"th anchor tag is :"+l[i]+"<br>");
+            }
+        </script>
+    </body>
+</html>
+
+7.a)
+
